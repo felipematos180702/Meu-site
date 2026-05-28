@@ -46,7 +46,7 @@ export default function Benefits() {
                 rel="noopener noreferrer"
                 className="w-full sm:w-auto inline-flex items-center justify-center bg-zinc-950 hover:bg-zinc-800 text-white font-semibold text-sm md:text-base px-6 py-3 md:px-8 md:py-4 mt-2 lg:mt-[4px] rounded-xl shadow-xl shadow-zinc-900/10 hover:shadow-zinc-900/15 transition-all duration-300 cursor-pointer"
               >
-                Consultoria Gratuita
+                Entrar em contato
               </a>
             </div>
           </div>

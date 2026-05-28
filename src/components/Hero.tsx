@@ -394,10 +394,10 @@ export default function Hero() {
                     href={portfolioSites[currentSlide].fullUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-1.5 text-xs text-white font-medium hover:text-blue-400 transition-colors cursor-pointer group/link"
+                    className="inline-flex items-center gap-1.5 text-xs text-white font-medium hover:text-blue-400 transition-colors cursor-pointer group/link whitespace-nowrap"
                   >
-                    Visitar Projeto Real 
-                    <ExternalLink size={12} className="transition-transform duration-300 group-hover/link:translate-x-0.5 group-hover/link:-translate-y-0.5" />
+                    <span className="shrink-0">Visitar Projeto Real</span>
+                    <ExternalLink className="w-3 h-3 md:w-3.5 md:h-3.5 shrink-0 transition-transform duration-300 group-hover/link:translate-x-0.5 group-hover/link:-translate-y-0.5" />
                   </a>
                 </motion.div>
               </div>
@@ -414,10 +414,10 @@ export default function Hero() {
                     href={portfolioSites[currentSlide].fullUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-1.5 text-xs bg-black/70 backdrop-blur-sm border border-white/20 px-4 py-2 rounded-full text-white font-medium hover:text-blue-400 transition-colors cursor-pointer group/link"
+                    className="inline-flex items-center gap-1.5 text-xs bg-black/70 backdrop-blur-sm border border-white/20 px-4 py-2 rounded-full text-white font-medium hover:text-blue-400 transition-colors cursor-pointer group/link whitespace-nowrap"
                   >
-                    Visite o projeto real
-                    <ExternalLink size={11} className="transition-transform duration-300 group-hover/link:translate-x-0.5 group-hover/link:-translate-y-0.5" />
+                    <span className="shrink-0">Visite o projeto real</span>
+                    <ExternalLink className="w-3 h-3 shrink-0 transition-transform duration-300 group-hover/link:translate-x-0.5 group-hover/link:-translate-y-0.5" />
                   </a>
                 </motion.div>
               </div>

@@ -3,17 +3,17 @@ import { Monitor, Briefcase, Zap } from 'lucide-react';
 const services = [
   {
     title: 'Landing Pages de Vendas',
-    description: 'Páginas de alta conversão criadas exclusivamente para campanhas de anúncios (Google e Meta Ads). O design perfeito para transformar o clique do usuário em um contato direto no seu WhatsApp.',
+    description: 'O design perfeito para transformar o clique do usuário em um contato direto no seu WhatsApp.',
     icon: Zap,
   },
   {
     title: 'Sites Institucionais',
-    description: 'O endereço digital oficial da sua empresa. Uma estrutura imponente que transmite segurança, credibilidade e profissionalismo para fechar contratos de maior valor.',
+    description: 'Uma estrutura imponente que transmite segurança, credibilidade e profissionalismo para fechar contratos de maior valor.',
     icon: Monitor,
   },
   {
     title: 'Catálogos e Portfólios Digitais',
-    description: 'Exiba seus produtos, projetos ou serviços de forma elegante e organizada. Facilite a decisão de compra do seu cliente com uma vitrine online de alto padrão.',
+    description: 'Facilite a decisão de compra do seu cliente com uma vitrine online de alto padrão.',
     icon: Briefcase,
   },
 ];
