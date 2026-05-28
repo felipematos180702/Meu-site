@@ -361,8 +361,8 @@ export default function Hero() {
                 <ChevronRight size={20} />
               </button>
 
-              {/* Floating Dynamic Project Info Tag */}
-              <div className="absolute bottom-6 left-6 right-6 md:left-8 md:bottom-8 md:max-w-md z-20 pointer-events-none">
+              {/* Floating Dynamic Project Info Tag (Desktop Only) */}
+              <div className="hidden md:block absolute bottom-6 left-6 right-6 md:left-8 md:bottom-8 md:max-w-md z-20 pointer-events-none">
                 <motion.div
                   key={currentSlide}
                   initial={{ opacity: 0, y: 15 }}
@@ -398,6 +398,26 @@ export default function Hero() {
                   >
                     Visitar Projeto Real 
                     <ExternalLink size={12} className="transition-transform duration-300 group-hover/link:translate-x-0.5 group-hover/link:-translate-y-0.5" />
+                  </a>
+                </motion.div>
+              </div>
+
+              {/* Minimalist Floating Link on Mobile Only */}
+              <div className="absolute bottom-4 left-1/2 -translate-x-1/2 z-20 md:hidden pointer-events-auto">
+                <motion.div
+                  key={currentSlide}
+                  initial={{ opacity: 0, y: 10 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.4 }}
+                >
+                  <a
+                    href={portfolioSites[currentSlide].fullUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-1.5 text-xs bg-black/70 backdrop-blur-sm border border-white/20 px-4 py-2 rounded-full text-white font-medium hover:text-blue-400 transition-colors cursor-pointer group/link"
+                  >
+                    Visite o projeto real
+                    <ExternalLink size={11} className="transition-transform duration-300 group-hover/link:translate-x-0.5 group-hover/link:-translate-y-0.5" />
                   </a>
                 </motion.div>
               </div>
