@@ -1,0 +1,6 @@
+{
+  "name": "Portfólio Clean",
+  "description": "Site institucional e portfólio de alta performance e conversão para desenvolvimento web.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
