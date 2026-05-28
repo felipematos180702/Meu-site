@@ -40,7 +40,7 @@ export default function Process() {
           </p>
         </div>
 
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 lg:gap-8">
           {steps.map((step, index) => (
             <div key={index} className="relative group">
               {/* Connector line for desktop with delicate animated gradient flow */}
@@ -48,31 +48,31 @@ export default function Process() {
                 <div className="hidden lg:block absolute top-[44px] left-[60%] w-full h-[1px] bg-zinc-800/80 group-hover:bg-gradient-to-r group-hover:from-zinc-800 group-hover:to-blue-500/20 transition-all duration-500" />
               )}
               
-              <div className="relative z-10 p-6 md:p-7 bg-zinc-900/40 backdrop-blur-md rounded-2xl border border-zinc-800/80 hover:border-zinc-700/60 hover:bg-zinc-900/60 hover:shadow-lg hover:shadow-zinc-950/50 transition-all duration-300 h-full flex flex-col justify-between">
+              <div className="relative z-10 p-3.5 sm:p-6 md:p-7 bg-zinc-900/40 backdrop-blur-md rounded-xl md:rounded-2xl border border-zinc-800/80 hover:border-zinc-700/60 hover:bg-zinc-900/60 hover:shadow-lg hover:shadow-zinc-950/50 transition-all duration-300 h-full flex flex-col justify-between">
                 
                 {/* Header of the Phase inside the Card */}
                 <div>
-                  <div className="flex items-center justify-between mb-5 pb-4 border-b border-zinc-850/60">
-                    <span className="inline-flex py-1 px-3.5 rounded-full bg-zinc-800/80 text-zinc-300 text-xs font-bold font-mono tracking-wide">
+                  <div className="flex items-center justify-between mb-3 pb-2 md:mb-5 md:pb-4 border-b border-zinc-850/60">
+                    <span className="inline-flex py-0.5 px-2 md:py-1 md:px-3.5 rounded-full bg-zinc-800/80 text-zinc-300 text-[9px] md:text-xs font-bold font-mono tracking-wide">
                       Fase {step.step}
                     </span>
-                    <span className="text-[10px] font-mono text-zinc-600 group-hover:text-blue-500 transition-colors duration-300">
+                    <span className="text-[8px] md:text-[10px] font-mono text-zinc-600 group-hover:text-blue-500 transition-colors duration-300">
                       STEP // {step.step}
                     </span>
                   </div>
                   
-                  <h3 className="text-lg md:text-xl font-bold mb-3 text-white group-hover:text-blue-400 transition-colors duration-300 tracking-tight">
+                  <h3 className="text-sm md:text-xl font-bold mb-2 md:mb-3 text-white group-hover:text-blue-400 transition-colors duration-300 tracking-tight">
                     {step.title}
                   </h3>
                   
-                  <p className="text-zinc-400 leading-relaxed text-xs md:text-sm font-light">
+                  <p className="text-zinc-400 leading-relaxed text-[11px] md:text-sm font-light">
                     {step.description}
                   </p>
                 </div>
 
                 {/* Symmetrical indicator highlight accent */}
-                <div className="mt-6 pt-4 border-t border-zinc-850/30 flex items-center gap-1.5 text-[11px] text-zinc-500 font-mono">
-                  <span className="w-1.5 h-1.5 rounded-full bg-blue-500/60 animate-pulse" />
+                <div className="mt-4 pt-2 md:mt-6 md:pt-4 border-t border-zinc-850/35 flex items-center gap-1 md:gap-1.5 text-[9px] md:text-[11px] text-zinc-500 font-mono">
+                  <span className="w-1 md:w-1.5 h-1 md:h-1.5 rounded-full bg-blue-500/60 animate-pulse" />
                   <span>Iteração e Validação</span>
                 </div>
 

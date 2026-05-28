@@ -29,19 +29,19 @@ export default function Services() {
           </p>
         </div>
 
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+        <div className="grid grid-cols-2 lg:grid-cols-3 gap-3 md:gap-8">
           {services.map((service, index) => {
             const Icon = service.icon;
             return (
               <div
                 key={index}
-                className="group p-6 md:p-8 rounded-2xl border border-zinc-100 bg-zinc-50 hover:bg-white hover:shadow-xl hover:shadow-zinc-200/40 hover:-translate-y-1 transition-all duration-300 animate-fadeIn"
+                className="group p-4 md:p-8 rounded-xl md:rounded-2xl border border-zinc-100 bg-zinc-50 hover:bg-white hover:shadow-xl hover:shadow-zinc-200/40 hover:-translate-y-1 transition-all duration-300 animate-fadeIn"
               >
-                <div className="w-10 h-10 md:w-12 md:h-12 rounded-xl bg-blue-100 text-blue-600 flex items-center justify-center mb-4 md:mb-6 group-hover:scale-110 group-hover:bg-blue-600 group-hover:text-white transition-all">
-                  <Icon className="w-5 h-5 md:w-6 md:h-6" strokeWidth={2} />
+                <div className="w-8 h-8 md:w-12 md:h-12 rounded-lg md:rounded-xl bg-blue-100 text-blue-600 flex items-center justify-center mb-3 md:mb-6 group-hover:scale-110 group-hover:bg-blue-600 group-hover:text-white transition-all">
+                  <Icon className="w-4 h-4 md:w-6 md:h-6" strokeWidth={2} />
                 </div>
-                <h3 className="text-lg md:text-xl font-semibold text-zinc-900 mb-2 md:mb-3">{service.title}</h3>
-                <p className="text-zinc-600 text-sm leading-relaxed">{service.description}</p>
+                <h3 className="text-sm md:text-xl font-semibold text-zinc-900 mb-1.5 md:mb-3">{service.title}</h3>
+                <p className="text-zinc-500 text-xs md:text-sm leading-relaxed">{service.description}</p>
               </div>
             );
           })}
