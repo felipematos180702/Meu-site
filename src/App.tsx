@@ -13,8 +13,8 @@ export default function App() {
       <Header />
       <Hero />
       <Services />
-      <Benefits />
       <Portfolio />
+      <Benefits />
       <Process />
       <FAQ />
       <Footer />

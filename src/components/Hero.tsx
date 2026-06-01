@@ -5,7 +5,7 @@ import { ArrowRight, ChevronLeft, ChevronRight, ExternalLink, ShieldCheck, Arrow
 const portfolioSites = [
   {
     title: "Barbearia Seu Tom",
-    category: "Premium Landing Page - Conversão Máxima",
+    category: "Site Institucional Premium",
     url: "barbeariaseutom.com.br",
     fullUrl: "https://barbeariaseutom.com.br/",
     description: "Design clássico premium com tons de carvão e bronze, focado em alta captação de agendamentos com carregamento ultrarrápido.",
@@ -13,8 +13,8 @@ const portfolioSites = [
     gradient: "from-amber-500/10 via-amber-600/5 to-transparent"
   },
   {
-    title: "Curso Doces da Naty",
-    category: "Página de Vendas - Alta Conversão (CRO)",
+    title: "Mentoria Doces da Naty",
+    category: "Landing Page de Alta Conversão",
     url: "cursodocesdanaty.com.br",
     fullUrl: "https://www.cursodocesdanaty.com.br/",
     description: "Layout delicado em tons pastel e acabamentos dourados, estruturado cientificamente para escalar a venda de treinamentos de confeitaria.",
@@ -23,7 +23,7 @@ const portfolioSites = [
   },
   {
     title: "Impulso Musical",
-    category: "Site Institucional - Captação de Alunos",
+    category: "Landing Page de Vendas",
     url: "impulsomusical.com.br",
     fullUrl: "https://www.impulsomusical.com.br/",
     description: "Interface vibrante de alta performance em modo escuro com contrastes neon, desenvolvida para conectar e converter futuros músicos.",
@@ -385,10 +385,6 @@ export default function Hero() {
                       <ArrowUpRight size={16} />
                     </a>
                   </h3>
-                  
-                  <p className="text-xs text-zinc-300 leading-relaxed font-light mb-4">
-                    {portfolioSites[currentSlide].description}
-                  </p>
 
                   <a
                     href={portfolioSites[currentSlide].fullUrl}

@@ -3,7 +3,7 @@ import { ArrowUpRight } from 'lucide-react';
 const projects = [
   {
     title: 'Impulso Musical',
-    category: 'Interface Vibrante de Alta Conversão',
+    category: 'Landing Page de Vendas',
     image: 'https://lh3.googleusercontent.com/d/1lJMYoZynYRHoCy9sbLT2jyBcnHJaFKuK',
     url: 'impulsomusical.com.br',
     fullUrl: 'https://www.impulsomusical.com.br/',
@@ -11,7 +11,7 @@ const projects = [
   },
   {
     title: 'Mentoria Doces da Naty',
-    category: 'Página de Vendas de Alta Performance',
+    category: 'Landing Page de Alta Conversão',
     image: 'https://lh3.googleusercontent.com/d/1DTpOE4s7344dIke9DTWN-dUoBH5p_seK',
     url: 'cursodocesdanaty.com.br',
     fullUrl: 'https://www.cursodocesdanaty.com.br/',
@@ -19,7 +19,7 @@ const projects = [
   },
   {
     title: 'Barbearia Seu Tom',
-    category: 'Landing Page Comercial Premium',
+    category: 'Site Institucional Premium',
     image: 'https://lh3.googleusercontent.com/d/1ZRcORmV_gI5r8ExCA2pIT8Hxvw2fRfZA',
     url: 'barbeariaseutom.com.br',
     fullUrl: 'https://barbeariaseutom.com.br/',
@@ -36,14 +36,11 @@ export default function Portfolio() {
       <div className="max-w-7xl mx-auto px-6 md:px-12">
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-20 gap-8">
           <div className="max-w-2xl">
-            <span className="text-blue-600 font-bold mb-3.5 block tracking-widest uppercase text-xs">
-              Estudos de Caso Reais
-            </span>
-            <h2 className="text-2xl md:text-5xl font-extrabold text-zinc-900 mb-4 md:mb-5 tracking-tight leading-[1.1]">
+            <h2 className="text-2xl md:text-5xl font-extrabold text-zinc-900 mb-2 md:mb-3 tracking-tight leading-[1.1]">
               Projetos Recentes
             </h2>
-            <p className="text-zinc-650 text-sm md:text-lg leading-relaxed font-light">
-              Explore nosso portfólio de engenharia e UI/UX. Criamos soluções de software sob medida com conversão validada de ponta a ponta.
+            <p className="text-zinc-600 text-sm md:text-base leading-relaxed font-normal">
+              Clique em um dos nossos últimos projetos e veja-os em tamanho real.
             </p>
           </div>
         </div>
