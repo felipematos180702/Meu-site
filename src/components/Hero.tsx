@@ -211,7 +211,7 @@ export default function Hero() {
             initial={{ opacity: 0, y: 25 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1.1, ease: cubicBezierEasing, delay: 0.12 }}
-            className="text-2xl sm:text-4xl md:text-[71px] font-extrabold text-neutral-900 tracking-tight leading-[1.15] mb-4 md:mb-6 md:mt-[34px] md:-ml-[1px] font-sans"
+            className="text-3xl sm:text-5xl md:text-[71px] font-extrabold text-neutral-900 tracking-tight leading-[1.12] mb-3 md:mb-5 md:mt-6 font-sans max-w-4xl mx-auto"
           >
             Transforme visitantes em <span className="text-blue-600 font-sans">clientes</span> com um site profissional
           </motion.h1>
@@ -221,7 +221,7 @@ export default function Hero() {
             initial={{ opacity: 0, y: 25 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1.1, ease: cubicBezierEasing, delay: 0.24 }}
-            className="text-sm sm:text-lg md:text-xl text-zinc-600 mb-8 md:mb-10 md:mt-[35px] md:ml-[224px] md:mb-[42px] leading-relaxed max-w-3xl mx-auto md:mx-0"
+            className="text-sm sm:text-base md:text-lg text-zinc-600 mb-6 md:mb-8 leading-relaxed max-w-2xl mx-auto"
           >
             Criamos sites e landing pages exclusivas, ultra-velozes e otimizadas para posicionar sua empresa como autoridade e multiplicar suas vendas.
           </motion.p>
@@ -231,7 +231,7 @@ export default function Hero() {
             initial={{ opacity: 0, y: 25 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1.1, ease: cubicBezierEasing, delay: 0.36 }}
-            className="flex flex-col sm:flex-row items-center justify-center gap-3 md:gap-4 relative md:mt-[6px] md:pt-[7px]"
+            className="flex flex-col sm:flex-row items-center justify-center gap-3 md:gap-4 relative mt-2 mb-8 md:mb-10"
           >
             {/* Soft Glowing Aura backing the magnetic CTA */}
             <div 
@@ -250,7 +250,7 @@ export default function Hero() {
               onMouseMove={handleCtaMouseMove}
               onMouseEnter={() => setIsCtaHovered(true)}
               onMouseLeave={handleCtaMouseLeave}
-              className="w-full sm:w-auto relative overflow-hidden inline-flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-500 text-white text-sm md:text-lg font-semibold px-6 py-3 md:px-8 md:py-4 rounded-xl transition-all duration-300 shadow-lg shadow-blue-600/15 cursor-pointer"
+              className="w-full sm:w-auto relative overflow-hidden inline-flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-500 text-white text-base md:text-lg font-medium px-6 py-3 md:px-8 md:py-4 rounded-xl transition-all duration-300 shadow-lg shadow-blue-600/15 cursor-pointer"
             >
               {/* Shimmer light-sweep background */}
               <span className="absolute inset-x-0 top-0 h-full w-full bg-gradient-to-r from-transparent via-white/10 to-transparent -translate-x-full hover:animate-[shimmer_2s_infinite]" />
@@ -262,7 +262,7 @@ export default function Hero() {
             {/* CTA Secundário */}
             <a
               href="#portfolio"
-              className="w-full sm:w-auto inline-flex items-center justify-center bg-zinc-50 hover:bg-zinc-100 border border-zinc-200 text-zinc-800 text-sm md:text-lg font-medium px-6 py-3 md:px-8 md:py-4 rounded-xl transition-all"
+              className="w-full sm:w-auto inline-flex items-center justify-center bg-zinc-50 hover:bg-zinc-100 border border-zinc-200 text-zinc-800 text-base md:text-lg font-medium px-6 py-3 md:px-8 md:py-4 rounded-xl transition-all"
             >
               Ver Projetos
             </a>
