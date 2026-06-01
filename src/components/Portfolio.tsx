@@ -2,6 +2,14 @@ import { ArrowUpRight } from 'lucide-react';
 
 const projects = [
   {
+    title: 'Vícios de Pipoca',
+    category: 'Landing Page de Vendas',
+    image: 'https://lh3.googleusercontent.com/d/1kJTehz7DUisMq_vzwTo8gcFGDe_0iiEL',
+    url: 'viciosdepipoca.com.br',
+    fullUrl: 'https://viciosdepipoca.com.br/',
+    description: 'Portal moderno de entretenimento e cultura pop com design imersivo focado em engajamento, retenção e monetização qualificada.'
+  },
+  {
     title: 'Impulso Musical',
     category: 'Landing Page de Vendas',
     image: 'https://lh3.googleusercontent.com/d/1lJMYoZynYRHoCy9sbLT2jyBcnHJaFKuK',

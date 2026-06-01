@@ -4,6 +4,15 @@ import { ArrowRight, ChevronLeft, ChevronRight, ExternalLink, ShieldCheck, Arrow
 
 const portfolioSites = [
   {
+    title: "Vícios de Pipoca",
+    category: "Landing Page de Vendas",
+    url: "viciosdepipoca.com.br",
+    fullUrl: "https://viciosdepipoca.com.br/",
+    description: "Portal moderno de entretenimento e cultura pop com design imersivo focado em engajamento, retenção e monetização qualificada.",
+    image: "https://lh3.googleusercontent.com/d/1kJTehz7DUisMq_vzwTo8gcFGDe_0iiEL",
+    gradient: "from-rose-500/10 via-rose-600/5 to-transparent"
+  },
+  {
     title: "Barbearia Seu Tom",
     category: "Site Institucional Premium",
     url: "barbeariaseutom.com.br",
