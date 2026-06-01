@@ -211,9 +211,9 @@ export default function Hero() {
             initial={{ opacity: 0, y: 25 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1.1, ease: cubicBezierEasing, delay: 0.12 }}
-            className="text-2xl sm:text-4xl md:text-[65px] font-extrabold text-neutral-900 tracking-tight leading-[1.15] mb-4 md:mb-6 md:mt-[34px] md:-ml-[1px] font-sans"
+            className="text-2xl sm:text-4xl md:text-[71px] font-extrabold text-neutral-900 tracking-tight leading-[1.15] mb-4 md:mb-6 md:mt-[34px] md:-ml-[1px] font-sans"
           >
-            Transforme visitantes em <span className="text-blue-600 font-sans">clientes</span> com um site profissional de alto padrão
+            Transforme visitantes em <span className="text-blue-600 font-sans">clientes</span> com um site profissional
           </motion.h1>
 
           {/* SUBTITULO */}
@@ -242,7 +242,7 @@ export default function Hero() {
 
             {/* CTA Principal - Fazer Orçamento Gratuito */}
             <motion.a
-              href="https://wa.me/5575982392535"
+              href="https://wa.me/5575982392535?text=Opa%2C%20Felipe!%20Gostaria%20de%20um%20or%C3%A7amento%20para%20o%20meu%20neg%C3%B3cio."
               target="_blank"
               rel="noopener noreferrer"
               animate={{ x: magneticCoords.x, y: magneticCoords.y }}

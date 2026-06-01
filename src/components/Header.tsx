@@ -54,7 +54,7 @@ export default function Header() {
 
           {/* Desktop outline button with conversion focus */}
           <a
-            href="https://wa.me/5575982392535"
+            href="https://wa.me/5575982392535?text=Opa%2C%20Felipe!%20Gostaria%20de%20um%20or%C3%A7amento%20para%20o%20meu%20neg%C3%B3cio."
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center border border-zinc-350 hover:border-blue-600 hover:text-blue-600 text-zinc-700 text-xs font-semibold px-4.5 py-2 rounded-lg transition-all"
@@ -87,7 +87,7 @@ export default function Header() {
             </a>
           ))}
           <a
-            href="https://wa.me/5575982392535"
+            href="https://wa.me/5575982392535?text=Opa%2C%20Felipe!%20Gostaria%20de%20um%20or%C3%A7amento%20para%20o%20meu%20neg%C3%B3cio."
             target="_blank"
             rel="noopener noreferrer"
             className="border border-zinc-300 hover:border-blue-600 text-zinc-750 hover:text-blue-600 text-center text-xs font-bold px-4 py-2.5 rounded-lg mt-1.5 transition-all block w-full"

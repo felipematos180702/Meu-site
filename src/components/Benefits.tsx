@@ -41,7 +41,7 @@ export default function Benefits() {
             </p>
             <div className="flex">
               <a
-                href="https://wa.me/5575982392535"
+                href="https://wa.me/5575982392535?text=Opa%2C%20Felipe!%20Gostaria%20de%20um%20or%C3%A7amento%20para%20o%20meu%20neg%C3%B3cio."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-full sm:w-auto inline-flex items-center justify-center bg-zinc-950 hover:bg-zinc-800 text-white font-semibold text-sm md:text-base px-6 py-3 md:px-8 md:py-4 mt-2 lg:mt-[4px] rounded-xl shadow-xl shadow-zinc-900/10 hover:shadow-zinc-900/15 transition-all duration-300 cursor-pointer"
