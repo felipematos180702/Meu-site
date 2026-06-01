@@ -211,7 +211,7 @@ export default function Hero() {
             initial={{ opacity: 0, y: 25 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1.1, ease: cubicBezierEasing, delay: 0.12 }}
-            className="text-3xl sm:text-5xl md:text-[71px] font-extrabold text-neutral-900 tracking-tight leading-[1.12] mb-3 md:mb-5 md:mt-6 font-sans max-w-4xl mx-auto"
+            className="text-[31px] sm:text-5xl md:text-[71px] font-extrabold text-neutral-900 tracking-tight leading-[1.12] mb-3 md:mb-5 md:mt-6 font-sans max-w-4xl mx-auto"
           >
             Transforme visitantes em <span className="text-blue-600 font-sans">clientes</span> com um site profissional
           </motion.h1>
@@ -221,7 +221,7 @@ export default function Hero() {
             initial={{ opacity: 0, y: 25 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1.1, ease: cubicBezierEasing, delay: 0.24 }}
-            className="text-sm sm:text-base md:text-lg text-zinc-600 mb-6 md:mb-8 leading-relaxed max-w-2xl mx-auto"
+            className="text-sm sm:text-base md:text-lg text-zinc-600 pt-[7px] mb-8 md:mb-8 leading-relaxed max-w-2xl mx-auto"
           >
             Criamos sites e landing pages exclusivas, ultra-velozes e otimizadas para posicionar sua empresa como autoridade e multiplicar suas vendas.
           </motion.p>
@@ -231,7 +231,7 @@ export default function Hero() {
             initial={{ opacity: 0, y: 25 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1.1, ease: cubicBezierEasing, delay: 0.36 }}
-            className="flex flex-col sm:flex-row items-center justify-center gap-3 md:gap-4 relative mt-2 mb-8 md:mb-10"
+            className="flex flex-col sm:flex-row items-center justify-center gap-3 md:gap-4 relative mt-3 mb-8 md:mb-10"
           >
             {/* Soft Glowing Aura backing the magnetic CTA */}
             <div 
@@ -282,7 +282,7 @@ export default function Hero() {
           <div className={`absolute -inset-4 bg-gradient-to-tr ${portfolioSites[currentSlide].gradient} rounded-3xl blur-2xl opacity-75 transition-all duration-1000 -z-10`} />
 
           {/* Browser Window Wrapper */}
-          <div className="relative rounded-2xl bg-white shadow-2xl border border-zinc-200/80 overflow-hidden aspect-[16/10] md:aspect-[16/9] flex flex-col">
+          <div className="relative rounded-2xl bg-white shadow-2xl border border-zinc-200/80 overflow-hidden aspect-[16/13] sm:aspect-[16/10] md:aspect-[16/9] flex flex-col">
             
             {/* Realistic Browser Header (Figma Minimalist Style) */}
             <div className="bg-zinc-50 flex items-center justify-between px-4 py-3 border-b border-zinc-200 select-none shrink-0">
