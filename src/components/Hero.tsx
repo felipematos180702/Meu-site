@@ -13,13 +13,13 @@ const portfolioSites = [
     gradient: "from-rose-500/10 via-rose-600/5 to-transparent"
   },
   {
-    title: "Barbearia Seu Tom",
-    category: "Site Institucional Premium",
-    url: "barbeariaseutom.com.br",
-    fullUrl: "https://barbeariaseutom.com.br/",
-    description: "Design clássico premium com tons de carvão e bronze, focado em alta captação de agendamentos com carregamento ultrarrápido.",
-    image: "https://lh3.googleusercontent.com/d/1ZRcORmV_gI5r8ExCA2pIT8Hxvw2fRfZA",
-    gradient: "from-amber-500/10 via-amber-600/5 to-transparent"
+    title: "Doces da Naty - Mentoria",
+    category: "Landing Page de Mentoria",
+    url: "mentoria.cursodocesdanaty.com.br",
+    fullUrl: "https://mentoria.cursodocesdanaty.com.br/",
+    description: "Página focada em conversão para mentoria premium, destacando autoridade e resultados.",
+    image: "https://lh3.googleusercontent.com/d/1DTpOE4s7344dIke9DTWN-dUoBH5p_seK",
+    gradient: "from-pink-500/10 via-pink-600/5 to-transparent"
   },
   {
     title: "Mentoria Doces da Naty",
@@ -27,8 +27,53 @@ const portfolioSites = [
     url: "cursodocesdanaty.com.br",
     fullUrl: "https://www.cursodocesdanaty.com.br/",
     description: "Layout delicado em tons pastel e acabamentos dourados, estruturado cientificamente para escalar a venda de treinamentos de confeitaria.",
-    image: "https://lh3.googleusercontent.com/d/1DTpOE4s7344dIke9DTWN-dUoBH5p_seK",
+    image: "https://lh3.googleusercontent.com/d/11WxskkKzDNDMWd4qRICJfwUiISvpev6i",
     gradient: "from-pink-500/10 via-pink-600/5 to-transparent"
+  },
+  {
+    title: "Visualização Não Dá Dinheiro",
+    category: "Landing Page de Vendas",
+    url: "visualizacaonaodadinheiro.com.br",
+    fullUrl: "https://www.visualizacaonaodadinheiro.com.br/",
+    description: "Página de vendas direta e de alta conversão para infoprodutos, focada em transformar seguidores em clientes rentáveis.",
+    image: "https://lh3.googleusercontent.com/d/11YBR8ric8e8eci0Ge-0nDe9n5WH0s9h0",
+    gradient: "from-purple-500/10 via-purple-600/5 to-transparent"
+  },
+  {
+    title: "Caça Preço do Rocha",
+    category: "Site estilo Link in Bio",
+    url: "cacaprecodorocha.com.br",
+    fullUrl: "https://www.cacaprecodorocha.com.br/",
+    description: "Plataforma focada em ofertas e promoções com layout otimizado para gerar urgência e aumentar as conversões diárias.",
+    image: "https://lh3.googleusercontent.com/d/14bW8FBahf01qnm8Ed8g4OmnJOVgEWMOt",
+    gradient: "from-green-500/10 via-green-600/5 to-transparent"
+  },
+  {
+    title: "Juliana Matos Nutri",
+    category: "Site estilo Link in Bio",
+    url: "juliana-matos-nutri.vercel.app",
+    fullUrl: "https://juliana-matos-nutri.vercel.app/",
+    description: "Site profissional de nutrição focado em autoridade, agendamentos online e apresentação de serviços de forma elegante e limpa.",
+    image: "https://lh3.googleusercontent.com/d/1v_4rXLg3vbYjuG662cyrZjy34C7fYQOX",
+    gradient: "from-emerald-500/10 via-emerald-600/5 to-transparent"
+  },
+  {
+    title: "Doce Graça Doceria",
+    category: "Site Institucional",
+    url: "docegraca-doceria.vercel.app",
+    fullUrl: "https://docegraca-doceria.vercel.app/",
+    description: "Design acolhedor e visualmente atrativo desenvolvido para destacar os produtos da confeitaria e facilitar pedidos dos clientes.",
+    image: "https://lh3.googleusercontent.com/d/1Cm2ig6iS-k5Ef9RsttlFwH-cxxlMmy_b",
+    gradient: "from-orange-500/10 via-orange-600/5 to-transparent"
+  },
+  {
+    title: "Barbearia Seu Tom",
+    category: "Site Institucional Premium",
+    url: "barbeariaseutom.com.br",
+    fullUrl: "https://barbeariaseutom.com.br/",
+    description: "Design clássico premium com tons de carvão e bronze, focado em alta captação de agendamentos com carregamento ultrarrápido.",
+    image: "https://lh3.googleusercontent.com/d/1ZRcORmV_gI5r8ExCA2pIT8Hxvw2fRfZA",
+    gradient: "from-amber-500/10 via-amber-600/5 to-transparent"
   },
   {
     title: "Impulso Musical",

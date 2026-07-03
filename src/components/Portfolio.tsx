@@ -10,20 +10,52 @@ const projects = [
     description: 'Portal moderno de entretenimento e cultura pop com design imersivo focado em engajamento, retenção e monetização qualificada.'
   },
   {
-    title: 'Impulso Musical',
-    category: 'Landing Page de Vendas',
-    image: 'https://lh3.googleusercontent.com/d/1lJMYoZynYRHoCy9sbLT2jyBcnHJaFKuK',
-    url: 'impulsomusical.com.br',
-    fullUrl: 'https://www.impulsomusical.com.br/',
-    description: 'página de vendas em modo escuro com visual moderno e dinâmico, estruturado para captar novos alunos e conectar estudantes de música à plataforma.'
+    title: 'Doces da Naty - Mentoria',
+    category: 'Landing Page de Mentoria',
+    image: 'https://lh3.googleusercontent.com/d/1DTpOE4s7344dIke9DTWN-dUoBH5p_seK',
+    url: 'mentoria.cursodocesdanaty.com.br',
+    fullUrl: 'https://mentoria.cursodocesdanaty.com.br/',
+    description: 'Página focada em conversão para mentoria premium, destacando autoridade e resultados.'
   },
   {
     title: 'Mentoria Doces da Naty',
     category: 'Landing Page de Alta Conversão',
-    image: 'https://lh3.googleusercontent.com/d/1DTpOE4s7344dIke9DTWN-dUoBH5p_seK',
+    image: 'https://lh3.googleusercontent.com/d/11WxskkKzDNDMWd4qRICJfwUiISvpev6i',
     url: 'cursodocesdanaty.com.br',
     fullUrl: 'https://www.cursodocesdanaty.com.br/',
     description: 'Landing Page elegante e sofisticada desenvolvida para o lançamento de cursos de confeitaria. Design focado em desejo visual e facilidade de inscrição.'
+  },
+  {
+    title: 'Visualização Não Dá Dinheiro',
+    category: 'Landing Page de Vendas',
+    image: 'https://lh3.googleusercontent.com/d/11YBR8ric8e8eci0Ge-0nDe9n5WH0s9h0',
+    url: 'visualizacaonaodadinheiro.com.br',
+    fullUrl: 'https://www.visualizacaonaodadinheiro.com.br/',
+    description: 'Página de vendas direta e de alta conversão para infoprodutos, focada em transformar seguidores em clientes rentáveis.'
+  },
+  {
+    title: 'Caça Preço do Rocha',
+    category: 'Site estilo Link in Bio',
+    image: 'https://lh3.googleusercontent.com/d/14bW8FBahf01qnm8Ed8g4OmnJOVgEWMOt',
+    url: 'cacaprecodorocha.com.br',
+    fullUrl: 'https://www.cacaprecodorocha.com.br/',
+    description: 'Plataforma focada em ofertas e promoções com layout otimizado para gerar urgência e aumentar as conversões diárias.'
+  },
+  {
+    title: 'Juliana Matos Nutri',
+    category: 'Site estilo Link in Bio',
+    image: 'https://lh3.googleusercontent.com/d/1v_4rXLg3vbYjuG662cyrZjy34C7fYQOX',
+    url: 'juliana-matos-nutri.vercel.app',
+    fullUrl: 'https://juliana-matos-nutri.vercel.app/',
+    description: 'Site profissional de nutrição focado em autoridade, agendamentos online e apresentação de serviços de forma elegante e limpa.'
+  },
+  {
+    title: 'Doce Graça Doceria',
+    category: 'Site Institucional',
+    image: 'https://lh3.googleusercontent.com/d/1Cm2ig6iS-k5Ef9RsttlFwH-cxxlMmy_b',
+    url: 'docegraca-doceria.vercel.app',
+    fullUrl: 'https://docegraca-doceria.vercel.app/',
+    description: 'Design acolhedor e visualmente atrativo desenvolvido para destacar os produtos da confeitaria e facilitar pedidos dos clientes.'
   },
   {
     title: 'Barbearia Seu Tom',
@@ -33,6 +65,14 @@ const projects = [
     fullUrl: 'https://barbeariaseutom.com.br/',
     description: 'Landing page comercial minimalista com foco em agendamento rápido de serviços. Criada para elevar o ticket médio e fidelizar clientes da região.'
   },
+  {
+    title: 'Impulso Musical',
+    category: 'Landing Page de Vendas',
+    image: 'https://lh3.googleusercontent.com/d/1lJMYoZynYRHoCy9sbLT2jyBcnHJaFKuK',
+    url: 'impulsomusical.com.br',
+    fullUrl: 'https://www.impulsomusical.com.br/',
+    description: 'Página de vendas em modo escuro com visual moderno e dinâmico, estruturado para captar novos alunos e conectar estudantes de música à plataforma.'
+  }
 ];
 
 export default function Portfolio() {
