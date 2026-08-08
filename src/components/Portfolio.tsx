@@ -2,6 +2,30 @@ import { ArrowUpRight } from 'lucide-react';
 
 const projects = [
   {
+    title: 'O Poder Diário',
+    category: 'Landing Page de Vendas',
+    image: 'https://lh3.googleusercontent.com/d/1X_IYRPHW9Idfn8TSazqr2vYYM6q51lSz',
+    url: 'opoderdiario.com.br',
+    fullUrl: 'https://www.opoderdiario.com.br/',
+    description: 'Página de alta conversão focada em desenvolvimento pessoal e espiritualidade, estruturada para captura de leads e vendas.'
+  },
+  {
+    title: 'As Partes de Mim',
+    category: 'Landing Page de Livro',
+    image: 'https://lh3.googleusercontent.com/d/1M2T_zvnZIawq6eufEkj3jmsnUD6e3Jew',
+    url: 'opoderdiario.com.br/aspartesdemim',
+    fullUrl: 'https://www.opoderdiario.com.br/aspartesdemim',
+    description: 'Landing page dedicada e minimalista para lançamento de livro, otimizada para envolver o leitor e maximizar vendas.'
+  },
+  {
+    title: 'Isabelly Mariano',
+    category: 'Site Institucional',
+    image: 'https://lh3.googleusercontent.com/d/1LZkxWC5b15fwYZlGvG9K2ys4lgpkbSCh',
+    url: 'isabellymariano.com.br',
+    fullUrl: 'https://www.isabellymariano.com.br/',
+    description: 'Site profissional focado no posicionamento de marca, captando clientes com um design elegante e layout focado em conversão.'
+  },
+  {
     title: 'Vícios de Pipoca',
     category: 'Landing Page de Vendas',
     image: 'https://lh3.googleusercontent.com/d/1kJTehz7DUisMq_vzwTo8gcFGDe_0iiEL',
@@ -24,6 +48,14 @@ const projects = [
     url: 'cursodocesdanaty.com.br',
     fullUrl: 'https://www.cursodocesdanaty.com.br/',
     description: 'Landing Page elegante e sofisticada desenvolvida para o lançamento de cursos de confeitaria. Design focado em desejo visual e facilidade de inscrição.'
+  },
+  {
+    title: 'Guiga Tech',
+    category: 'Landing Page de Vendas',
+    image: 'https://lh3.googleusercontent.com/d/1NT9hHVV-y_Wi4L3qGJGTim3Q-W3qEDG3',
+    url: 'guigatech.com.br',
+    fullUrl: 'https://www.guigatech.com.br/',
+    description: 'Layout de alto impacto visual focado em produtos de tecnologia, projetado para atrair público qualificado e aumentar o faturamento.'
   },
   {
     title: 'Visualização Não Dá Dinheiro',
@@ -68,7 +100,7 @@ const projects = [
   {
     title: 'Impulso Musical',
     category: 'Landing Page de Vendas',
-    image: 'https://lh3.googleusercontent.com/d/1lJMYoZynYRHoCy9sbLT2jyBcnHJaFKuK',
+    image: 'https://lh3.googleusercontent.com/d/1pdpcKpiTpNHJQnH5ulUvG4U7sPrWjfme',
     url: 'impulsomusical.com.br',
     fullUrl: 'https://www.impulsomusical.com.br/',
     description: 'Página de vendas em modo escuro com visual moderno e dinâmico, estruturado para captar novos alunos e conectar estudantes de música à plataforma.'

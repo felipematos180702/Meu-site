@@ -4,6 +4,33 @@ import { ArrowRight, ChevronLeft, ChevronRight, ExternalLink, ShieldCheck, Arrow
 
 const portfolioSites = [
   {
+    title: "O Poder Diário",
+    category: "Landing Page de Vendas",
+    url: "opoderdiario.com.br",
+    fullUrl: "https://www.opoderdiario.com.br/",
+    description: "Página de alta conversão focada em desenvolvimento pessoal e espiritualidade, estruturada para captura de leads e vendas.",
+    image: "https://lh3.googleusercontent.com/d/1X_IYRPHW9Idfn8TSazqr2vYYM6q51lSz",
+    gradient: "from-blue-500/10 via-blue-600/5 to-transparent"
+  },
+  {
+    title: "As Partes de Mim",
+    category: "Landing Page de Livro",
+    url: "opoderdiario.com.br/aspartesdemim",
+    fullUrl: "https://www.opoderdiario.com.br/aspartesdemim",
+    description: "Landing page dedicada e minimalista para lançamento de livro, otimizada para envolver o leitor e maximizar vendas.",
+    image: "https://lh3.googleusercontent.com/d/1M2T_zvnZIawq6eufEkj3jmsnUD6e3Jew",
+    gradient: "from-indigo-500/10 via-indigo-600/5 to-transparent"
+  },
+  {
+    title: "Isabelly Mariano",
+    category: "Site Institucional",
+    url: "isabellymariano.com.br",
+    fullUrl: "https://www.isabellymariano.com.br/",
+    description: "Site profissional focado no posicionamento de marca, captando clientes com um design elegante e layout focado em conversão.",
+    image: "https://lh3.googleusercontent.com/d/1LZkxWC5b15fwYZlGvG9K2ys4lgpkbSCh",
+    gradient: "from-purple-500/10 via-purple-600/5 to-transparent"
+  },
+  {
     title: "Vícios de Pipoca",
     category: "Landing Page de Vendas",
     url: "viciosdepipoca.com.br",
@@ -29,6 +56,15 @@ const portfolioSites = [
     description: "Layout delicado em tons pastel e acabamentos dourados, estruturado cientificamente para escalar a venda de treinamentos de confeitaria.",
     image: "https://lh3.googleusercontent.com/d/11WxskkKzDNDMWd4qRICJfwUiISvpev6i",
     gradient: "from-pink-500/10 via-pink-600/5 to-transparent"
+  },
+  {
+    title: "Guiga Tech",
+    category: "Landing Page de Vendas",
+    url: "guigatech.com.br",
+    fullUrl: "https://www.guigatech.com.br/",
+    description: "Layout de alto impacto visual focado em produtos de tecnologia, projetado para atrair público qualificado e aumentar o faturamento.",
+    image: "https://lh3.googleusercontent.com/d/1NT9hHVV-y_Wi4L3qGJGTim3Q-W3qEDG3",
+    gradient: "from-slate-500/10 via-slate-600/5 to-transparent"
   },
   {
     title: "Visualização Não Dá Dinheiro",
@@ -81,7 +117,7 @@ const portfolioSites = [
     url: "impulsomusical.com.br",
     fullUrl: "https://www.impulsomusical.com.br/",
     description: "Interface vibrante de alta performance em modo escuro com contrastes neon, desenvolvida para conectar e converter futuros músicos.",
-    image: "https://lh3.googleusercontent.com/d/1lJMYoZynYRHoCy9sbLT2jyBcnHJaFKuK",
+    image: "https://lh3.googleusercontent.com/d/1pdpcKpiTpNHJQnH5ulUvG4U7sPrWjfme",
     gradient: "from-indigo-500/10 via-indigo-600/5 to-transparent"
   }
 ];
