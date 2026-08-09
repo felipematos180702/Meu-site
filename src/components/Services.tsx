@@ -2,8 +2,8 @@ import { Monitor, Briefcase, Zap } from 'lucide-react';
 
 const services = [
   {
-    title: 'Landing Pages de Vendas',
-    description: 'O design perfeito para transformar o clique do usuário em um contato direto no seu WhatsApp.',
+    title: 'Páginas de vendas',
+    description: 'Um design exclusivo para o seu produto, focado em aumentar o numero de vendas e a experiência do seu lead.',
     icon: Zap,
   },
   {
