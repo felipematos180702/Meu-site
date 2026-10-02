@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/checklist",
+      "destination": "https://checklist-two-flax.vercel.app"
+    },
+    {
+      "source": "/checklist/:path*",
+      "destination": "https://checklist-two-flax.vercel.app/:path*"
+    }
+  ]
+}
